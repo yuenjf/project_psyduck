@@ -1,0 +1,39 @@
+.form-control:focus {
+    outline: none;
+    border-color: #f0ad4e;
+    opacity: 0.5;
+}
+
+.navbar-default {
+    background: #fff;
+}
+
+.container-small {
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin: 80px 0;
+    color: #666;
+}
+
+label {
+    color: #666;
+}
+
+.login {
+    margin-top: 20px;
+    text-align: center;
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    color: #f0ad4e;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}

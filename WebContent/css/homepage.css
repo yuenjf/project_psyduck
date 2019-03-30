@@ -1,0 +1,118 @@
+html,
+body {
+    margin: 40px 0;
+}
+
+/* top */
+.form-control:focus {
+    outline: none;
+    border-color: #f0ad4e;
+    opacity: 0.5;
+}
+
+/* mian */
+.homepage-top {
+    height: 180px;
+}
+
+.homepage-top .top-protrait img {
+    width: 180px;
+    height: 180px;
+}
+
+.homepage-top .top-info {
+    color: #999;
+}
+
+.homepage-main {
+    margin-top: 40px;
+}
+
+.main-tabs {
+    height: 400px;
+    font-size: 20px;
+}
+
+.main-tabs ul li a {
+    color: #666;
+}
+
+.main-tabs .tab-content #profile {
+     text-align: center;
+     line-height: 300px;
+} 
+
+.cate-list-item {
+    width: 263px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    /* margin-top: 30px; */
+    margin: 30px 58px 0 58px;
+}
+
+.cate-list-item img{
+    width: 262px;
+    height: 154px;
+}
+
+.cate-list-item .name {
+    margin: 5px;
+}
+
+.cate-list-item .author {
+    margin-bottom: 5px;
+}
+
+.cate-list-item .name a {
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+}
+
+.cate-list-item .author a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.cate-list-item .name a:hover {
+    color: #f0ad4e;
+}
+
+.cate-list-item .author a:hover {
+    color: #f0ad4e;
+}
+
+.cate-list-item .rec-remove {
+    position: absolute;
+    color: #666;
+    right: 5px;
+    top: 5px;
+}
+
+.cate-list-item .rec-remove:hover {
+    color: #f0ad4e;
+}
+
+.noResult {
+    text-align: center;
+    line-height: 300px;
+    font-size: 18px;
+    color: #666;
+}
+
+.page {
+    font-size: 14px;
+    position: absolute;
+    margin-top: 460px;
+}
+
+.page-info {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #666;
+}
+
+

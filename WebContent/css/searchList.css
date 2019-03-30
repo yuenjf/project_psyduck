@@ -1,0 +1,146 @@
+html,
+body {
+    margin: 40px 0;
+}
+
+/* top */
+.form-control:focus {
+    outline: none;
+    border-color: #f0ad4e;
+    opacity: 0.5;
+}
+
+/*  main */
+.side-bar {
+    margin-top: 10px;
+}
+
+.side-bar .list-group-item {
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.side-bar .list-group-item:hover {
+    background: #f0ad4e;
+    color: white;
+}
+
+.rec-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rec-list ul li {
+    margin-top: 20px;
+}
+
+.rec-list .list-cover a img {
+    width: 317px;
+    height: 180px;
+}
+
+.rec-list .list-cover a img:hover {
+    opacity: 0.9;
+}
+
+.rec-list .list-title {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rec-list .list-title:hover {
+    color: #f0ad4e;
+}
+
+.rec-list .list-author {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.rec-list .list-author:hover {
+    color: #f0ad4e;
+}
+
+.rec-list .noResult {
+    margin-top: 260px;
+    margin-left: 100px;
+    color: #666;
+}
+
+.page-info {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* user-info */
+.other-side {
+    /* position: fixed; */
+}
+
+.user-info {
+    margin-top: 10px;
+    background: #eee;
+    opacity: 0.9;
+    text-align: center;
+    width: 255px;
+    height: 320px;
+}
+
+.user-info * {
+    position: relative;
+    top: 20px;
+}
+
+.user-info .name,
+.user-info .action {
+    position: relative;
+    margin: 30px 0;
+}
+
+.user-info .name * {
+    font-size: 120%;
+    color: #666;
+}
+
+.user-info .name *:hover {
+    text-decoration: none;
+    color: #f0ad4e;
+}
+
+/* footer */
+.footer {
+    margin-top: 40px;
+    background: #eee;
+    opacity: 0.9;
+}
+
+.footer * {
+    margin-left: 2px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* bottom */
+.page {
+    margin-top: 60px;
+}
+
+#returnTop {
+    bottom: 40px;
+    right: 40px;
+    position: fixed;
+}
+
+#returnTop:hover {
+    opacity: 0.9;
+}
